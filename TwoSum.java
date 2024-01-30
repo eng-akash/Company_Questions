@@ -7,7 +7,7 @@ public class TwoSum {
             for (int j = i + 1; j < n; j++) {
                 if (nums[i] + nums[j] == target) {
                     System.out.println("("+i+","+j+")");
-//                    output => (0,3) return the inexes
+//                    output => (0,3) return the indexes
                 }
             }
         }
